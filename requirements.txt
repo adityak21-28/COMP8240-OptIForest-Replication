@@ -1,0 +1,7 @@
+# Dependencies for this project's generator, audits, plots and reference baseline.
+# This environment is separate from the legacy upstream OptIForest environment.
+numpy>=1.26,<3.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3,<2.0
+matplotlib>=3.7,<4.0
+pytest>=7,<9

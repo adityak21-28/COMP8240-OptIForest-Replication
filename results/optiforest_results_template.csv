@@ -1,0 +1,4 @@
+dataset,method,run_id,seed,threshold,branch,trees,roc_auc,average_precision,runtime_seconds,exit_code,log_path,dataset_version,notes
+ad,OptIForest,1,,,,,,,,,,upstream bundled AD,Fill after actual run
+annthyroid_openml_40886,OptIForest,1,,,,,,,,,,OpenML data id 40886,Fill after actual run
+synthetic_v1,OptIForest,1,,,,,,,,,,synthetic seed 8240,Fill after actual run

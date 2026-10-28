@@ -1,0 +1,13 @@
+Baseline run results:
+                           model             scope  n_runs  auc_roc_mean  auc_roc_sd  ap_mean  ap_sd  n_samples  n_anomalies
+sklearn_IsolationForest_baseline     all_anomalies      15        0.7755      0.0055   0.2256 0.0174      21000         1000
+sklearn_IsolationForest_baseline         clustered      15        0.8919      0.0140   0.1679 0.0360      20333          333
+sklearn_IsolationForest_baseline        contextual      15        0.5534      0.0048   0.0199 0.0006      20333          333
+sklearn_IsolationForest_baseline   difficulty_high      15        0.8320      0.0029   0.1943 0.0284      20333          333
+sklearn_IsolationForest_baseline    difficulty_low      15        0.7001      0.0103   0.0401 0.0024      20334          334
+sklearn_IsolationForest_baseline difficulty_medium      15        0.7945      0.0053   0.0904 0.0085      20333          333
+sklearn_IsolationForest_baseline             point      15        0.8807      0.0046   0.1586 0.0133      20334          334
+
+Run-level results: results/isolation_forest_baseline_runs.csv
+Summary: results/isolation_forest_baseline_summary.csv
+NOTE: These are scikit-learn IsolationForest baseline results, not OptIForest results.

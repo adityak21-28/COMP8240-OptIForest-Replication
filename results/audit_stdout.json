@@ -1,0 +1,54 @@
+{
+  "path": "data/synthetic_anomaly_benchmark_v1.csv",
+  "rows": 21000,
+  "columns": 14,
+  "feature_columns": [
+    "feature_1",
+    "feature_2",
+    "feature_3",
+    "feature_4",
+    "feature_5",
+    "feature_6",
+    "feature_7",
+    "feature_8",
+    "feature_9",
+    "feature_10"
+  ],
+  "numeric_feature_count": 10,
+  "non_numeric_feature_columns": [],
+  "missing_by_column": {
+    "sample_id": 0,
+    "feature_1": 0,
+    "feature_2": 0,
+    "feature_3": 0,
+    "feature_4": 0,
+    "feature_5": 0,
+    "feature_6": 0,
+    "feature_7": 0,
+    "feature_8": 0,
+    "feature_9": 0,
+    "feature_10": 0,
+    "label": 0,
+    "anomaly_type": 0,
+    "difficulty": 0
+  },
+  "duplicate_rows": 0,
+  "label_counts": {
+    "0": 20000,
+    "1": 1000
+  },
+  "anomaly_rate": 0.047619047619047616,
+  "anomaly_type_counts": {
+    "normal": 20000,
+    "point": 334,
+    "clustered": 333,
+    "contextual": 333
+  },
+  "difficulty_counts": {
+    "none": 20000,
+    "low": 334,
+    "high": 333,
+    "medium": 333
+  },
+  "passed_basic_checks": true
+}
