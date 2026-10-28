@@ -5,3 +5,4 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .ipynb_checkpoints/
+data/creditcard_openml_1597.csv

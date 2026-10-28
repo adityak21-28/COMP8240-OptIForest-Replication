@@ -1,0 +1,55 @@
+{
+  "source": "OpenML creditcard dataset",
+  "openml_data_id": 1597,
+  "source_url": "https://www.openml.org/search?id=1597&status=active&type=data",
+  "original_rows": 284807,
+  "original_features": 29,
+  "sample_rows": 10000,
+  "feature_columns": [
+    "feature_1",
+    "feature_2",
+    "feature_3",
+    "feature_4",
+    "feature_5",
+    "feature_6",
+    "feature_7",
+    "feature_8",
+    "feature_9",
+    "feature_10",
+    "feature_11",
+    "feature_12",
+    "feature_13",
+    "feature_14",
+    "feature_15",
+    "feature_16",
+    "feature_17",
+    "feature_18",
+    "feature_19",
+    "feature_20",
+    "feature_21",
+    "feature_22",
+    "feature_23",
+    "feature_24",
+    "feature_25",
+    "feature_26",
+    "feature_27",
+    "feature_28",
+    "feature_29"
+  ],
+  "label_column": "label",
+  "label_mapping": {
+    "0": "legitimate transaction",
+    "1": "fraudulent transaction (anomaly)"
+  },
+  "original_class_counts": {
+    "0": 284315,
+    "1": 492
+  },
+  "sample_class_counts": {
+    "0": 9983,
+    "1": 17
+  },
+  "sampling": "Stratified random sample",
+  "random_seed": 8240,
+  "warning": "This is a sampled formulation of the OpenML dataset, not the full 284,807-row dataset. Report the sample size and class counts in all experimental results."
+}

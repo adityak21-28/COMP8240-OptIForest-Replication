@@ -1,0 +1,9 @@
+Dataset: creditcard_openml_1597
+
+L2OPT:
+	AUC score:	 0.8685647954463765
+	AUC std:	 0.0
+	PR score:	 0.006850419787070134
+	PR std:	 0.0
+	Training time:	 231.5034408569336
+	Testing time:	 11.823041200637817
