@@ -1,0 +1,16 @@
+{
+  "source": "OpenML dataset id 40886 (Annthyroid)",
+  "url": "https://www.openml.org/d/40886",
+  "dataset_version": "OpenML data id 40886; fetched via scikit-learn fetch_openml",
+  "rows": 7200,
+  "numeric_features": 6,
+  "target_values": [
+    "Anomaly",
+    "Normal"
+  ],
+  "anomaly_label_value": "Anomaly",
+  "anomaly_count": 534,
+  "normal_count": 6666,
+  "anomaly_rate": 0.07416666666666667,
+  "warning": "This formulation is not the separate DAMI Annthyroid 2% benchmark; do not mix their reported statistics."
+}
