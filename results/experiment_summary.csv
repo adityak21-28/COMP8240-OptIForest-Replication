@@ -1,0 +1,5 @@
+dataset,method,observations,anomalies,trees,repetitions,auc_roc_mean,auc_roc_sd,average_precision_mean,average_precision_sd,training_time,test_time,status
+AD,OptIForest,NA,NA,100,15,0.7757810174,0.0058691575,0.4534205044,0.0365110455,11.445177,17.301738,Original-data reproduction
+synthetic_v1,OptIForest,21000,1000,100,15,0.7827982967,0.0043867706,0.3364127706,0.0168579407,4.129514,135.900111,Constructed-data experiment
+annthyroid_openml_40886,OptIForest,7200,534,100,15,0.5707487790,0.0186092427,0.1286564982,0.0132593929,2.222222,15.913535,Exploratory; dataset version needs validation
+creditcard_openml_1597_sample,OptIForest,10000,17,10,5,0.8367766379,0.0160384437,0.0053435343,0.0005714943,116.043554,5.982518,Reduced-scale diagnostic
