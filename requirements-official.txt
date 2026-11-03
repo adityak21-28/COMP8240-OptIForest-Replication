@@ -1,0 +1,6 @@
+# Compatibility environment used to run the authors' OptIForest code (see README).
+# The upstream README pins numpy 1.20.1 / scikit-learn 0.22.1 / pandas 1.4.1, which do not install on Python 3.12.
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.14.1
